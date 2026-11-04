@@ -1,0 +1,24 @@
+# Local Julia state and editor files
+.tmp_appdata/
+.vscode/
+.idea/
+*.jl.cov
+*.jl.mem
+
+# Reproducible local outputs
+results/
+outputs/**/*.log
+outputs/**/*.done
+
+# Third-party lecture material and upstream downloads
+SOICT_mathematical_modelling_sparse/
+collection_routing_dataset_v3/raw/
+collection_routing_dataset_v3/build/
+
+# Derived exports and prior simulation outputs; CSV inputs remain tracked
+collection_routing_dataset_v3/collection_routing_dataset_v3.xlsx
+collection_routing_dataset_v3/ket_qua/
+collection_routing_dataset_v3/SHA256SUMS.txt
+collection_routing_dataset_v3/validation_report.txt
+outputs/experiments/*smoke*/
+outputs/v3_INS_XS/
